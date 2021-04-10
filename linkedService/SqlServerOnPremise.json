@@ -1,0 +1,16 @@
+{
+	"name": "SqlServerOnPremise",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DSIDSW948;initial catalog=AdventureWorksDW2016_EXT;user id=testsa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxODhhMzFlYi05ZTU0LTQ1ZDQtOGYzMS01ZTkzZGJlZDYxZWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

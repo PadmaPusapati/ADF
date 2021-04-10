@@ -1,0 +1,9 @@
+{
+	"name": "adftutorialdev01",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "624589a1-02db-403b-a7e9-082a35fab403",
+		"tenantId": "31d5acce-99ba-40b7-b2a1-f329e04fe742"
+	}
+}
